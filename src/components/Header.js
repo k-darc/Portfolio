@@ -8,7 +8,7 @@ class Header extends Component {
 
     render() {
         return (<div>
-        <h1 className='heading-background'>CREATIVE</h1>
+        <h1 className='heading-background'>CREATE</h1>
             <header>
                 <h1>
                     <Fade bottom cascade>{data.name}</Fade></h1>
@@ -21,9 +21,6 @@ class Header extends Component {
                     <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
                 </p>
             </Fade>
-
-
-
         </div>);
     }
 }

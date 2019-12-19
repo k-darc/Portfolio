@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
-
 body{
   font-size: 16px;
   background: white;
@@ -15,7 +14,6 @@ body{
 }
 
 
-
 .App-header {
   position: relative;
   min-height: 100vh;
@@ -27,12 +25,12 @@ body{
 }
 .heading-background{
   position: fixed;
-  opacity: 0.05;
+  opacity: 0.09;
   font-size: 25em;
   left:-0.2em;
   top:-0.5em;
   z-index: -100;
-  color:#9352ae;
+  color:#52ae83;
 }
 header{
   display: flex;
@@ -70,10 +68,14 @@ nav li .link{
 }
 li .link:hover{
   opacity: 1;
+  font-weight: bold;
+  background: rgba(60, 197, 94, 0.836);
 }
 .active{
   color:black;
   opacity: 1;
+  background: rgb(34, 197, 75);
+  font-weight: bold;
 }
 
 .header-title button{
@@ -157,7 +159,7 @@ height: 30em;
   text-align: left;
 }
 .amazing-color{
-  color:#9352ae;
+  color:#49b163;
   opacity: 1;
 }
 
@@ -430,5 +432,3 @@ height: 32em;
 
 
 }
-
-

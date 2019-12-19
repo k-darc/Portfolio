@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-reveal": "^1.2.2",
@@ -29,5 +31,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "## Minimal Portfolio template for Developers/Designers built with React. Use it to showcase your work, testimonials and other information to clients.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetanverma16/react-portfolio-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chetanverma16/react-portfolio-template/issues"
+  },
+  "homepage": "https://github.com/chetanverma16/react-portfolio-template#readme"
 }
