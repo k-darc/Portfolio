@@ -39,14 +39,6 @@ body{
   align-items: center;
 } */
 
-/*name*/
-/* header h1{
-font-size: 1em;
-font-weight: 400;  
-padding: 1em;
-margin-right: 50em;
-} */
-
 .kev{
   font-size: 1em;
   font-weight: 400;  
@@ -108,7 +100,6 @@ li .link:hover{
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   text-align: center;
-  margin: auto;
 }
 .header-title button:hover{
   opacity: 0.8;
@@ -132,12 +123,12 @@ li .link:hover{
 }
 .about-content{
   position: relative;
-  left:15em;
+  left: 15em;
 }
 .about-content h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
-  text-align: center;
+  text-align: left;
 }
 .about-content p{
   font-size: 1.3em;
@@ -231,15 +222,26 @@ li .link:hover{
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px){
 
-  body {
-    font-size: 6px;
-  }
+body {
+  font-size: 6px;
+}
 
-  header h1 {/*kev*/
-    font-size: 5em;
-    padding: 1em;
-    margin-right: 0em;
-  }
+.kev{
+  font-size: 2em;
+  font-weight: 400;  
+  padding: 0.25em;
+  margin: 0;
+  display: inline-block; 
+}
+
+.kev:after{
+  content: '';
+  height: 0.25em;
+  display: block;
+  background: rgba(7, 167, 74, 0.747);
+  transition: 300ms;
+  width: 102%;
+}
 
 .heading-background{
   display: none;
@@ -247,15 +249,17 @@ li .link:hover{
 nav{
   display: none;
 }
+
 .header-title{
   font-size: 3em;
   text-align: left;
-  top:1em;
-  left:1em;
+  top: 1em;
+  text-align: center;
 }
+
 .about{position: relative;
-      display: flex;
-      top:-60em;
+   display: flex;
+  top:-60em;
 }
 .about h1{
   text-align: left;
