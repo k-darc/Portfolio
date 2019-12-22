@@ -6,11 +6,11 @@ export default
         name :'kevin darcy',
         headerTagline: [
                         'Hello! I\'m Kevin Darcy.',
-                        'Junior Full Stack Web Developer',
+                        'Full Stack Web Developer',
                         'based in New Jersey.'
     ],
         contactEmail:'kev.darc111@gmail.com',
-        abouttext: "After many years in the financial industry, I decided to pursue my passion in web design. As a graduate of Rutger's Coding Bootcamp I look forward to expanding my career & constantly learning. I enjoy building websites from the ground up! If you are seeking a web presence or an employer looking to hire, you can get in touch with me below.",
+        abouttext: "After many years in the financial industry, I decided to pursue my passion in web design. As a graduate of Rutger's Coding Bootcamp I look forward to constantly learning & expanding my career. I enjoy building websites from the ground up! If you are seeking a web presence or an employer looking to hire, you can get in touch with me below.",
         aboutImage:'https://images.unsplash.com/photo-1524821261922-e353d72c20e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
        ShowAboutImage:false,
        projects:[

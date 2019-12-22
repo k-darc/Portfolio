@@ -7,7 +7,7 @@ class Contact extends Component {
     render() { 
         return (  <div>
         <h1>
-                <Fade bottom> Contact.</Fade>
+                <Fade bottom>Contact.</Fade>
         </h1>
         <Fade bottom>
         <div className='contact-content'>
@@ -17,7 +17,7 @@ class Contact extends Component {
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <ul>
                     {data.social.map((link,index)=>(
-                        <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
+                        <li key={index}><a target='_blank' className="footerSocialLinks" rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
                     ))}   
                 </ul>
         </div>

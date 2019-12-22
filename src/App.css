@@ -8,11 +8,9 @@ body{
   z-index: 1;
 }
 
-
 .App {
   text-align: center;
 }
-
 
 .App-header {
   position: relative;
@@ -21,39 +19,61 @@ body{
   flex-direction: column;
   align-items: center;
   color: black;
-  top:4em;
+  top: 4em;
 }
+
+/* fade backdrop*/
 .heading-background{
   position: fixed;
   opacity: 0.09;
   font-size: 25em;
-  left:-0.2em;
-  top:-0.5em;
+  left: 0em;
+  top: -0.5em;
   z-index: -100;
-  color:#52ae83;
+  color:#37925d91;
 }
-header{
+/* header{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-header h1{
+} */
+
+/*name*/
+/* header h1{
 font-size: 1em;
 font-weight: 400;  
-padding: 2em;
+padding: 1em;
 margin-right: 50em;
+} */
+
+.kev{
+  font-size: 1em;
+  font-weight: 400;  
+  padding: 1em;
+  margin-right: 50em;
+  display: inline-block;
 }
+
+.kev:after{
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: rgba(7, 167, 74, 0.747);
+  transition: 300ms;
+  width: 102%;
+}
+
 nav{
   position:fixed;
   left:60em;
   top:6em;
-z-index: 100;
+  z-index: 100;
 }
 nav li{
   display: inline-block;
   cursor: pointer;
-
 }
 nav li .link{
   text-decoration: none;
@@ -87,9 +107,12 @@ li .link:hover{
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
+  text-align: center;
+  margin: auto;
 }
 .header-title button:hover{
   opacity: 0.8;
+  background: rgb(29, 165, 63);
 }
 .header-title button a{
   font-family: 'Open Sans', sans-serif;
@@ -114,7 +137,7 @@ li .link:hover{
 .about-content h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
-  text-align: left;
+  text-align: center;
 }
 .about-content p{
   font-size: 1.3em;
@@ -144,9 +167,11 @@ li .link:hover{
 }
 
 .project img{
-width: 30em;  
-height: 30em;
+  width: 30em;  
+  height: 30em;
+  box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.438);
 }
+
 .contact{
   position: relative;
   top:20em;
@@ -154,7 +179,7 @@ height: 30em;
   text-align: left;
 }
 .contact h1{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
 }
@@ -183,23 +208,38 @@ height: 30em;
   top:2em;
   padding: 1em;
 }
-.footer a{
+
+.footerSocialLinks {
+  cursor: pointer;
   text-decoration: none;
-  color:#2c59fb;
+  color: black;
+  padding:1em;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
+.footerSocialLinks:hover {
+  opacity: 1;
+  font-weight: bold;
+  background: rgba(60, 197, 94, 0.836);
+}
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px){
 
-  body{
+  body {
     font-size: 6px;
   }
-  header h1{
-font-size: 5em;  
-padding: 1em;
-margin-right: 0em;
-}
+
+  header h1 {/*kev*/
+    font-size: 5em;
+    padding: 1em;
+    margin-right: 0em;
+  }
 
 .heading-background{
   display: none;
@@ -215,13 +255,16 @@ nav{
 }
 .about{position: relative;
       display: flex;
-      top:-30em;
+      top:-60em;
+}
+.about h1{
+  text-align: left;
 }
 .about img{
-  display: none
+  display: none;
 }
 .about-content{
-  left:2em;
+  left: 10em;
 }
 .about-content p{
   font-size: 3.5em;
@@ -230,8 +273,8 @@ nav{
 }
 
 .work{
-  left:2em;
-  top:2em;
+  left: 10em;
+  top: -50em;
   align-items: flex-start;
 }
 .work .work-content{
@@ -239,14 +282,21 @@ nav{
   grid-template-columns: 1fr;
   grid-gap: 5em;
 }
+.work .heading{
+  text-align: left;
+}
+.work span{
+  font-size: 11px;
+}
 .project img{
 width: 45em;  
 height: 45em;
+box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.226);
 }
 
 .contact{
-  top:15em;
-  left:2em;
+  top: -20em;
+  left: 10em;
 }
 .contact h1{
   font-size: 4em;
@@ -254,19 +304,22 @@ height: 45em;
 .contact .email{
   font-size: 3.5em;
 }
-
 .contact li{
-  display: block;
-  padding: 2em;
+  padding-top: 2em;
 }
 .contact li a{
   font-size: 2.5em;
 }
+.contact ul{
+  padding-left: 0em;
+}
 .footer{
-  top:4em;
-  padding: 1em;
+  top: 7em;
+  padding: 5em;
   font-size: 2em;
 }
+
+
 
 
 }

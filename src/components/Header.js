@@ -10,7 +10,7 @@ class Header extends Component {
         return (<div>
         <h1 className='heading-background'>CREATE</h1>
             <header>
-                <h1>
+                <h1 className="kev">
                     <Fade bottom cascade>{data.name}</Fade></h1>
             </header>
             <Fade bottom>
