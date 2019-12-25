@@ -227,7 +227,7 @@ body {
 }
 
 .kev{
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 400;
   padding: 0.25em;
   margin: 0;
@@ -240,7 +240,7 @@ body {
   display: block;
   background: rgba(7, 167, 74, 0.747);
   transition: 300ms;
-  width: 102%;
+  width: 100%;
 }
 
 .heading-background{
@@ -262,7 +262,7 @@ nav{
 
 .about{position: relative;
   display: flex;
-  top:-60em;
+  top:-50em;
 }
 .about h1{
   text-align: left;
@@ -281,7 +281,7 @@ nav{
 
 .work{
   left: 8em;
-  top: -40em;
+  top: -30em;
   align-items: flex-start;
 }
 .work .work-content{
@@ -302,7 +302,6 @@ nav{
 }
 
 .contact{
-  top: -10em;
   left: 8em;
 }
 .contact h1{
@@ -324,6 +323,7 @@ nav{
   top: 7em;
   padding: 5em;
   font-size: 2em;
+  text-align: center;
 }
 
 
@@ -337,7 +337,7 @@ nav{
 
 body{
     font-size: 10px;
-  }
+}
 header h1{
 font-size: 5em;  
 padding: 1em;
@@ -354,8 +354,8 @@ nav{
   left:1em;
 }
 .about{position: relative;
-      display: flex;
-      top:-10em;
+  display: flex;
+  top:-10em;
 }
 .about img{
   display: none
