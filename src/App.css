@@ -228,10 +228,10 @@ body {
 
 .kev{
   font-size: 2em;
-  font-weight: 400;  
+  font-weight: 400;
   padding: 0.25em;
   margin: 0;
-  display: inline-block; 
+  display: inline-block;
 }
 
 .kev:after{
@@ -251,14 +251,17 @@ nav{
 }
 
 .header-title{
-  font-size: 3em;
+  font-size: 4em;
   text-align: left;
   top: 1em;
   text-align: center;
 }
+.header-title button{
+  margin-top: 1.5em;
+}
 
 .about{position: relative;
-   display: flex;
+  display: flex;
   top:-60em;
 }
 .about h1{
@@ -268,7 +271,7 @@ nav{
   display: none;
 }
 .about-content{
-  left: 10em;
+  left: 8em;
 }
 .about-content p{
   font-size: 3.5em;
@@ -277,8 +280,8 @@ nav{
 }
 
 .work{
-  left: 10em;
-  top: -50em;
+  left: 8em;
+  top: -40em;
   align-items: flex-start;
 }
 .work .work-content{
@@ -293,14 +296,14 @@ nav{
   font-size: 11px;
 }
 .project img{
-width: 45em;  
-height: 45em;
-box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.226);
+  width: 45em;  
+  height: 45em;
+  box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.226);
 }
 
 .contact{
-  top: -20em;
-  left: 10em;
+  top: -10em;
+  left: 8em;
 }
 .contact h1{
   font-size: 4em;
