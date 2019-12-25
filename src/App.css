@@ -252,7 +252,6 @@ nav{
 
 .header-title{
   font-size: 4em;
-  text-align: left;
   top: 1em;
   text-align: center;
 }
@@ -262,7 +261,7 @@ nav{
 
 .about{position: relative;
   display: flex;
-  top:-50em;
+  top:-10em;
 }
 .about h1{
   text-align: left;
@@ -281,7 +280,7 @@ nav{
 
 .work{
   left: 8em;
-  top: -30em;
+  /* top: -30em; */
   align-items: flex-start;
 }
 .work .work-content{
@@ -321,7 +320,7 @@ nav{
 }
 .footer{
   top: 7em;
-  padding: 5em;
+  padding: 5em, 0em, 5em, 0em;
   font-size: 2em;
   text-align: center;
 }
