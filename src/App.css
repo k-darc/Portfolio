@@ -226,11 +226,7 @@ body {
   font-size: 6px;
 }
 
-header{
-  text-align: center;
-}
-
-.kev{
+.kev{ 
   font-size: 4em;
   font-weight: 400;
   padding: 0.25em;
@@ -240,11 +236,11 @@ header{
 
 .kev:after{
   content: '';
-  height: 0.25em;
-  display: block;
+  height: 0.10em;
   background: rgba(7, 167, 74, 0.747);
   transition: 300ms;
   width: 100%;
+  border-radius: 40px;
 }
 
 .heading-background{
@@ -254,7 +250,7 @@ nav{
   display: none;
 }
 
-.header-title{
+.header-title{ /* Hello I'm Kevin... intro */
   font-size: 4em;
   top: 1em;
 }
@@ -263,7 +259,8 @@ nav{
   background: rgba(7, 167, 74, 0.877);
 }
 
-.about{position: relative;
+.about{
+  position: relative;
   display: flex;
   top: -40em;
 }
@@ -279,12 +276,12 @@ nav{
 .about-content p{
   font-size: 3.5em;
   text-align: left;
-  width: 320px;
+  width: 350px; /* try 300px as default, 320 works a bit better for mobile */
 }
 
 .work{
-  left: 8em;
-  /* top: -30em; */
+  left: 7em;
+  top: -10em; /* -30em or -20em might also work */
   align-items: flex-start;
 }
 .work .work-content{
@@ -325,7 +322,6 @@ nav{
 .footer{
   top: 7em;
   font-size: 2em;
-  left: 5em;
 }
 
 
