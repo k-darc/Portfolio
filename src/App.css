@@ -276,7 +276,7 @@ nav{
 .about-content p{
   font-size: 3.5em;
   text-align: left;
-  width: 360px; /* try 300px as default, 320 works a bit better for mobile */
+  width: 380px; /* try 300px as default, 320 works a bit better for mobile */
 }
 
 .work{
