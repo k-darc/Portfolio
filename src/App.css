@@ -276,7 +276,7 @@ nav{
 .about-content p{
   font-size: 3.5em;
   text-align: left;
-  width: 350px; /* try 300px as default, 320 works a bit better for mobile */
+  width: 360px; /* try 300px as default, 320 works a bit better for mobile */
 }
 
 .work{
@@ -287,13 +287,13 @@ nav{
 .work .work-content{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 5em;
+  grid-gap: 6em;
 }
 .work .heading{
   text-align: left;
 }
 .work span{
-  font-size: 11px;
+  font-size: 12px;
 }
 .project img{
   width: 45em;  
@@ -322,6 +322,7 @@ nav{
 .footer{
   top: 7em;
   font-size: 2em;
+  left: 5em;
 }
 
 
