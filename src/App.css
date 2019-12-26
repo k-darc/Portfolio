@@ -142,8 +142,8 @@ li .link:hover{
   position: relative;
   display: flex;
   flex-direction: column;
-  left:15em;
-  top:8em;
+  left: 15em;
+  top: 8em;
   align-items: flex-start;
 }
 .work .heading{
@@ -165,8 +165,8 @@ li .link:hover{
 
 .contact{
   position: relative;
-  top:20em;
-  left:15em;
+  top: 20em;
+  left: 15em;
   text-align: left;
 }
 .contact h1{
@@ -230,8 +230,8 @@ body {
   font-size: 4em;
   font-weight: 400;
   padding: 0.25em;
-  margin: 0;
-  display: inline-block;
+  margin: 0px 0px 0px 20px;
+  /* display: inline-block; */
 }
 
 .kev:after{
@@ -322,7 +322,7 @@ nav{
 .footer{
   top: 7em;
   font-size: 2em;
-  left: 5em;
+  left: 7em;
 }
 
 
