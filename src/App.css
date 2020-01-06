@@ -352,8 +352,6 @@ nav li{
 
 
 
-
-
 /* SMARTPHONES PORTRAIT */
 @media screen and (min-width: 320px) and (max-width: 480px){
 
@@ -372,7 +370,7 @@ body {
 .kev:after{
   content: '';
   height: 0.10em;
-  background: rgba(167, 98, 7, 0.747);
+  background: rgba(7, 167, 74, 0.747);
   transition: 300ms;
   width: 100%;
   border-radius: 40px;
