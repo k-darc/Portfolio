@@ -25,14 +25,14 @@ export default
             {
                 id: 2,
                 title: 'Dino in Space',
-                service: '2nd Group Project {ES6, MySql, Socket.io, Vue.js}',
+                service: '2nd Group Project {ES6, Socket.io, Vue.js, MySql}',
                 imageSrc: dinoImg,
                 url: 'https://github.com/k-darc/Platformer'
             },
             { 
                 id: 3,
                 title: 'Treat Yo Self!',
-                service: '1st Group Project {ES6, HTML, CSS}',
+                service: '1st Group Project {HTML, CSS, ES6}',
                 imageSrc: "https://www.picclickimg.com/d/l400/pict/153499461479_/Treat-yourself-Neon-Sign-Light-Lamp-Decor-Artwork.jpg",
                 url: 'https://github.com/k-darc/Project-1'
             },

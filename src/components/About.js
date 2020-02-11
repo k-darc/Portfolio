@@ -11,7 +11,7 @@ class About extends Component {
                     <p>{data.abouttext}</p>
                     <p>{data.techused}</p>
             </div>
-            {data.ShowAboutImage ? <img src={data.aboutImage} alt='about iamge'></img> : null}
+            {data.ShowAboutImage ? <img src={data.aboutImage} alt='about image'></img> : null}
         </div>  );
     }
 }

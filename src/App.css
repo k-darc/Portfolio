@@ -164,9 +164,9 @@ li .link:hover{
   box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.438);
 }
 .project img:hover{
-  box-shadow: 1px 1px 12px 12px rgba(128, 128, 128, 0.527);
+  box-shadow: 1px 1px 12px 12px rgba(128, 128, 128, 0.726);
 }
-
+ 
 .contact{
   position: relative;
   top: 20em;
@@ -232,6 +232,12 @@ li .link:hover{
   opacity: 1;
   font-weight: bold;
   background: rgba(60, 197, 94, 0.836);
+}
+
+/* JUMBO SCALING 1332 - 1900 ---------------------------- */
+@media screen and (min-width: 1332px) and (max-width: 1900px){
+
+  
 }
 
 
