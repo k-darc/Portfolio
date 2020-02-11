@@ -3,14 +3,15 @@ const amazImg = require('../src/amazon.png');
 
 export default
     {
-        name :'kevin darcy',
+        name:'kevin darcy',
         headerTagline: [
                         'Hello! I\'m Kevin Darcy.',
                         'Full Stack Web Developer',
                         'based in New Jersey.'
     ],
         contactEmail:'kev.darc111@gmail.com',
-        abouttext: "After many years in the financial industry, I decided to pursue my passion in web design. As a graduate of Rutger's Coding Bootcamp I look forward to constantly learning & expanding my career. I enjoy building websites from the ground up! If you are seeking a web presence or an employer looking to hire, you can get in touch with me below.",
+        abouttext: "Ambitious, hard working, practical. Those are just some of the words used to describe me. As a graduate of an intense 12-week training program at Rutger's University, I graduated with a certificate in Web Development. I enjoy building websites from the ground up! If you are seeking a web presence or an employer looking to hire, you can get in touch with me below.",
+        techused: "Technologies Used: HTML5, CSS3, Bootstrap, Javascript, React, jQuery, JSON, AJAX, Node.js, Express, Heroku, GitHub, MySQL, Google Firebase, MongoDB.",
         aboutImage:'https://images.unsplash.com/photo-1524821261922-e353d72c20e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
        ShowAboutImage:false,
        projects:[

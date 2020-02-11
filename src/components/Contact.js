@@ -9,7 +9,6 @@ class Contact extends Component {
         <h1>
                 <Fade bottom cascade>Contact</Fade>
         </h1>
-        <Fade bottom>
         <div className='contact-content'>
                 <h1>
                 Feel free to reach out<br></br>
@@ -21,7 +20,6 @@ class Contact extends Component {
                     ))}   
                 </ul>
         </div>
-        </Fade>
 
             <span className='footer'>Made by Kevin Darcy | 2019 </span>
         </div>);

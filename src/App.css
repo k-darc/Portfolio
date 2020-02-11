@@ -163,6 +163,9 @@ li .link:hover{
   height: 20em;
   box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.438);
 }
+.project img:hover{
+  box-shadow: 1px 1px 12px 12px rgba(128, 128, 128, 0.527);
+}
 
 .contact{
   position: relative;
@@ -183,6 +186,17 @@ li .link:hover{
 .contact .email{
   color:black;
   font-size: 2em;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.contact .email:hover{
+  opacity: 1;
+  background: rgba(60, 197, 94, 0.836);
+  font-weight: bold;
 }
 .contact li{
   display: inline-block;
