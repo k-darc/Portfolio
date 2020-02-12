@@ -32,12 +32,6 @@ body{
   z-index: -100;
   color:#37925d91;
 }
-/* header{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-} */
 
 .kev{
   font-size: 1em;
@@ -234,13 +228,6 @@ li .link:hover{
   background: rgba(60, 197, 94, 0.836);
 }
 
-/* JUMBO SCALING 1332 - 1900 ---------------------------- */
-@media screen and (min-width: 1332px) and (max-width: 1900px){
-
-  
-}
-
-
 
 /* DESKTOP AND LAPTOP SCALING ---------------------------- */
 @media screen and (min-width: 1024px) and (max-width: 1331px){
@@ -343,7 +330,6 @@ nav li{
     left: 2em;
     top: -2em;
   }
-  
   .about-content p{
     width: 20em;
   }
@@ -366,9 +352,7 @@ nav li{
   .contact h1{
     font-size: 3em;
   }
-  
   }
-
 
 
 
@@ -384,9 +368,7 @@ body {
   font-weight: 400;
   padding: 0.25em;
   margin: 0px 0px 0px 45px;
-  /* display: inline-block; */
 }
-
 .kev:after{
   content: '';
   height: 0.10em;
@@ -433,7 +415,7 @@ nav{
 }
 
 .work{
-  left: 4em;
+  left: 6em;
   top: -10em; /* -30em or -20em might also work */
   align-items: flex-start;
 }
@@ -442,16 +424,19 @@ nav{
   grid-template-columns: 1fr;
   grid-gap: 6em;
 }
-.work .heading{
-  text-align: left;
-}
 .work span{
   font-size: 32px;
 }
 .project img{
-  width: 45em;  
-  height: 45em;
+  width: 52em;  
+  height: 52em;
   box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.226);
+}
+.project h1{
+  font-size: 18px;
+}
+.project p{
+  font-size: 16px;
 }
 
 .contact{
@@ -478,10 +463,9 @@ nav{
   left: 7em;
 }
 
-
-
-
 }
+
+
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
