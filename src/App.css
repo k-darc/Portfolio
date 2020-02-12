@@ -433,7 +433,7 @@ nav{
 }
 
 .work{
-  left: 7em;
+  left: 4em;
   top: -10em; /* -30em or -20em might also work */
   align-items: flex-start;
 }
@@ -446,7 +446,7 @@ nav{
   text-align: left;
 }
 .work span{
-  font-size: 12px;
+  font-size: 32px;
 }
 .project img{
   width: 45em;  
