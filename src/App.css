@@ -74,15 +74,15 @@ nav li .link{
 }
 li .link:hover{
   opacity: 1;
-  font-weight: bold;
+  color: black;
   background: rgba(60, 197, 94, 0.836);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .active{
   color:black;
   opacity: 1;
   background: rgb(34, 197, 75);
-  font-weight: bold;
+  color: black;
 }
 
 .header-title button{
@@ -190,7 +190,7 @@ li .link:hover{
 .contact .email:hover{
   opacity: 1;
   background: rgba(60, 197, 94, 0.836);
-  font-weight: bold;
+  color: black;
 }
 .contact li{
   display: inline-block;
@@ -224,7 +224,7 @@ li .link:hover{
 
 .footerSocialLinks:hover {
   opacity: 1;
-  font-weight: bold;
+  color: black;
   background: rgba(60, 197, 94, 0.836);
 }
 
