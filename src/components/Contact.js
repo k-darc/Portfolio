@@ -21,7 +21,7 @@ class Contact extends Component {
                 </ul>
         </div>
 
-            <span className='footer'>Created by Kevin Michael | 2020 </span>
+            <span className='footer'>Created by Kevin Michael | 2021 </span>
         </div>);
     }
 }
